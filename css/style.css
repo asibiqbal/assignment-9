@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: var(--bg-color);
+}
+
+/* Shortcuts */
+:root {
+    --bg-color: #00ffdd;
+    --button-color: #10C98F;
+    --inter: "Inter", sans-serif;
+    --chivo: 'Chivo', sans-serif;
+}
+
+/* header Start */
+.h-menu {
+    color: #fff;
+    font-weight: 600;
+    padding: 28px 20px !important;
+    display: block;
+    font-size: 16px;
+}
+
+.h-menu:hover {
+    color: #fff;
+}
+
+.menu-button {
+    font-family: var(--chivo);
+    color: #fff;
+    background: var(--button-color);
+    font-weight: 600;
+    padding: 20px 40px !important;
+    display: block;
+    font-size: 16px;
+    text-transform: inherit;
+}
+
+.menu-button:hover {
+    color: #fff;
+}
+
+/* header End */
