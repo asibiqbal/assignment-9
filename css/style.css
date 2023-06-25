@@ -43,18 +43,21 @@ header {
 
 .menu-button {
     font-family: var(--chivo);
-    color: #fff;
+    color: #fff !important;
     background: var(--button-color);
     font-weight: 600;
     padding: 20px 40px !important;
     display: block;
     font-size: 16px;
     text-transform: inherit;
+    position: relative;
+    z-index: 999;
 }
 
 .menu-button:hover {
     color: #fff;
 }
+
 
 /* header End */
 
@@ -67,7 +70,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
-    height: 110vh;
+    height: 115vh;
     position: relative;
 }
 
@@ -387,3 +390,122 @@ header {
 
 
 /* News End */
+
+/* Footer Start */
+footer {
+    width: 100%;
+    background: #F4FCFA;
+}
+
+.footer-wrapper {
+    padding: 80px 0;
+}
+
+.foot-content {
+    font-family: "Chivo", sans-serif !important;
+    color: #4C5753;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.footer-link h6 {
+    color: #0F4332;
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.subscribe h6 {
+    color: #0F4332;
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.footer-link ul li {
+    list-style: none;
+}
+
+.footer-link ul li a {
+    padding-bottom: 15px;
+    color: #4C5753;
+    font-weight: 500;
+    font-size: 16px;
+    display: block;
+    text-decoration: none;
+    transition: 0.3s;
+
+}
+
+.footer-link ul li:hover a {
+    color: #10C98F;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.subscribe p {
+    color: #4C5753;
+    font-size: 16px;
+}
+
+footer input {
+    width: 100%;
+    height: 65px;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 0px;
+    color: #5C6168;
+    background: none;
+    border: 2px solid #10C98F;
+}
+
+footer input:focus {
+    outline: none;
+}
+
+.submit-icon .submit {
+    cursor: pointer;
+    padding: 21px 34px;
+    height: 65px;
+    line-height: 1;
+    border-radius: 0;
+    background: #10C98F;
+    border: 3px solid #10C98F;
+}
+
+.social a {
+    color: #4C5753;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+    transition: 0.2s;
+}
+
+
+
+.social a:hover {
+    color: #10C98F;
+    transition: 0.2s;
+    transform: rotate(360deg);
+}
+
+.footer-content {
+    color: rgb(76, 87, 83);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2;
+    border-top: 1px solid rgba(76, 87, 83, 0.15);
+    padding: 20px 0 10px;
+}
+
+.footer-content span {
+    color: #10C98F;
+    font-size: 17px;
+}
+
+
+/* Footer End */
